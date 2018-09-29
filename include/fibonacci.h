@@ -22,8 +22,9 @@ namespace edu {
                         uint64_t store=0;
                         for(uint64_t i=2; i<(number+1); i++){
                             store = last + next;
-                            std::cout << "DEBUG: i= " << i << std::endl;
-                            std::cout << "AND last " << last << " next=" << next << " store=" << store << std::endl;
+                            //DEBUG Lines
+                            //std::cout << "DEBUG: i= " << i << std::endl;
+                            //std::cout << "AND last " << last << " next=" << next << " store=" << store << std::endl;
                             last = next;
                             next = store;
                         }
