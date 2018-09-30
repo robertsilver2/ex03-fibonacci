@@ -35,7 +35,7 @@
 #include <cstdint>
 
 // Includes for google test and the unit under test.
-typedef uint64_t uint;
+//typedef uint64_t uint;
 #include <climits>
 #include <sstream>
 
