@@ -4,7 +4,7 @@
  * Assignment: ex03-fibonacci
  *
  * Statement of code ownership: I hereby state that I have written all of this
- * code and I have not copied this code from any other person or source. :)
+ * code and I have not copied this code from any other person or source.
  *
  * @robertsilver2
  */
@@ -29,7 +29,7 @@ namespace edu {
                             return (next);
                         }
 
-                        uint64_t store;
+                        uint64_t store=last+next;
 
                         for(uint64_t i=2; i<(number+1); i++){
                             store = last + next;
