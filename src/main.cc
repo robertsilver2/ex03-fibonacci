@@ -5,7 +5,7 @@
  *
  *
  * Statement of code ownership: I hereby state that, unless cited, I have written all of this
- * code and I have not copied this code from any other person or source.
+ * code and I have not copied this code from any other person or source. :)
  *
  * @robertsilver2
  */
