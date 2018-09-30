@@ -22,15 +22,16 @@ namespace edu {
                         uint64_t last = 0;
                         uint64_t next = 1;
                         if(number==0) {
-                            std::cout << "The value of Fibonacci " << number << " is " << last << std::endl;
+                            //std::cout << "DEBUG: The value of Fibonacci " << number << " is " << last << std::endl;
                             return (last);
                         }
                         if(number==1) {
-                            std::cout << "The value of Fibonacci " << number << " is " << next << std::endl;
+                            //std::cout << "DEBUG: The value of Fibonacci " << number << " is " << next << std::endl;
                             return (next);
                         }
 
                         uint64_t store=last+next;
+                        //storage variable for new fib
 
                         for(uint64_t i=2; i<(number+1); i++){
                             store = last + next;
@@ -42,8 +43,6 @@ namespace edu {
                         }
                         std::cout << "The value of Fibonacci " << number << " is " << store << std::endl;
                         return(store);
-                        //std::cout << "DEBUG: number = " << number << std::endl;
-                        //return (-1);
                 }
             }
         }
