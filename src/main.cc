@@ -15,5 +15,7 @@
 using edu::vcccd::vc::csv15::fibonacci;
 
 int main(int argc, char *argv[]) {
-    uint64_t  number = fibonacci(3);
+    int n = 100;
+    for(int i = 0; i < n; i++)
+    uint64_t  number = fibonacci(i);
 }
